@@ -1,0 +1,15 @@
+.box1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 30px 5px;/*horizontal length,vertical length,blur effect--->picks up default box shadow color same as the text color----> Can be changed*/
+}
+.box2{
+    margin-top: 60px;
+    color: red;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 30px 5px;/*picks up default color same as Text (HERE RED)*/
+    /* multiple shadows can also be added */
+}

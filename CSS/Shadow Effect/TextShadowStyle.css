@@ -1,4 +1,4 @@
 h1{
-    text-shadow: 3px 5px 3px red;
-    box
+    text-shadow: 3px 5px 3px red; /*horizontal size,vertical size,blur effect, color*/
+    text-shadow: 3px 5px 3px red,30px 50px 3px blueviolet; /*Overrides previous one*/
 }
