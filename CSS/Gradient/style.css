@@ -16,3 +16,10 @@ div {
     width: 150px;
     background-image: radial-gradient(circle,red, blue);
 }
+.conic{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    /* background: conic-gradient(red, orange, yellow, green, blue); */
+    background-image: conic-gradient(red,blue);
+}
