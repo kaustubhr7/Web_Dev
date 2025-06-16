@@ -1,0 +1,18 @@
+div {
+    margin: 10px;
+}
+
+.linear {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    /* background-image: linear-gradient(pink,red); */  
+    background-image: linear-gradient(orange,white,green);
+}
+
+.radial {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: radial-gradient(circle,red, blue);
+}
