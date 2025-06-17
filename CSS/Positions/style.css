@@ -1,0 +1,40 @@
+div {
+    display: inline-block;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: 100px;
+    bottom: 50px;
+    left: 50px;
+}
+
+.fixed {
+    position: fixed;
+    /*remains stuck while scrolling*/
+}
+
+.absolute {
+    position: absolute;
+    /*changes according to the nearest positioned ancestor*/
+}
+
+.sticky {
+    position: sticky;/*behaves as both relative and fixed*/
+    top: 0px;
+}
+
+.wrapper_scrollable {
+    height: 1000px;
+    width: 100vw;
+    background-color: yellow;
+}

@@ -1,0 +1,27 @@
+.container {
+    height: 400px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: column;changes dirn of flex from main axis to cross axis8 */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row-reverse wrap-reverse; *---->Combines flex dirn and flex*/
+}
+
+.box {
+    border: 1px solid brown;
+    width: 80px;
+}
+
+
+#box1 {
+    flex-grow: 2;
+}
+#box3{
+    flex-shrink: 2; /*this box shrinks FASTER than others*/
+}
+#box2{
+    width: 100px;
+    flex-basis: 100px;
+}

@@ -1,4 +1,20 @@
 .translate{
     background-color: aqua;
-    transform: trans;
+    transform: translate(10px,20px);
+}
+
+.rotate{
+    margin-top: 30px;
+    background-color: green;
+    transform: rotate(45deg);
+}
+.scale{
+    margin-top: 30px;
+    background-color: yellow;
+    transform: scale(0.5,2);/*horizontal scaling,vertical scaling*/
+}
+.skew{
+    margin-top: 30px;
+    background-color: pink;
+    transform: skew(45deg);
 }
